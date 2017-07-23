@@ -1,0 +1,173 @@
+#custom-search-input {
+    margin: 0;
+    padding: 0;
+}
+
+#custom-search-input .search-query {
+    padding-right: 3px;
+    padding-right: 4px \9;
+    padding-left: 3px;
+    padding-left: 4px \9;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#custom-search-input button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -225px;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #000000;
+}
+
+.search-query:focus + button {
+    z-index: 3;
+}
+
+.logo {
+    height: 30px;
+    width: 40px;
+}
+
+.makingcircle {
+    border-radius: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.panel-footer {
+    min-height: 50px;
+    max-height: 50px;
+}
+
+.profileImage {
+    width: 80px;
+    padding-top: 20px;
+}
+
+.myContent {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.mycompetency {
+    padding-right: 10px;
+    clear: both;
+}
+
+.viewPost {
+    padding-right: 10px;
+}
+
+.dropdownBtn {
+    font-size: 10px;
+    float: right;
+}
+
+.envIcon {
+    float: right;
+    font-size: x-large;
+    margin-right: 20px;
+}
+
+.profileSidePanel {
+    border: ridge;
+    border-radius: 5px;
+}
+
+.userIcon {
+    font-size: 2em;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.userName{
+    padding-left: 10px;
+}
+
+.access{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.whySoSerious{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*
+@media screen and (min-width: 320px)and(max-width: 991px) {
+
+}
+
+}*/
+/*
+#searchinput {
+    width: 200px;
+}
+#searchclear {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    height: 14px;
+    margin: auto;
+    font-size: 14px;
+    cursor: pointer;
+    color: #ccc;
+}*/
+
+.navbar-collapse form[role="search"] {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    z-index: 0;
+}
+
+.navbar-collapse form[role="search"] button,
+.navbar-collapse form[role="search"] input {
+    padding: 8px 12px;
+    border-radius: 0px;
+    border-width: 0px;
+    color: rgb(119, 119, 119);
+    background-color: rgb(248, 248, 248);
+    border-color: rgb(231, 231, 231);
+    box-shadow: none;
+    outline: none;
+}
+
+.navbar-collapse form[role="search"] input {
+    padding: 16px 12px;
+    font-size: 14pt;
+    font-style: italic;
+    color: rgb(160, 160, 160);
+    box-shadow: none;
+}
+
+.navbar-collapse form[role="search"] button[type="reset"] {
+    display: none;
+}
+
+.leftMargin{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.panelBorder{
+    outline: 2px solid slategray;
+}
